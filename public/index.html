@@ -1,0 +1,111 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>omtober — Omarchy as my daily driver</title>
+    <meta
+      name="description"
+      content="Michael Chan (chantastic) tries Omarchy, DHH's opinionated Arch + Hyprland setup, as a daily driver OS, and keeps a log of how it goes."
+    />
+    <meta name="author" content="Michael Chan" />
+    <link rel="canonical" href="https://omtober.org/" />
+    <link rel="icon" href="/favicon.svg" type="image/svg+xml" />
+    <meta name="theme-color" content="#1a1b26" />
+    <meta name="color-scheme" content="dark" />
+
+    <meta property="og:type" content="website" />
+    <meta property="og:site_name" content="omtober" />
+    <meta property="og:url" content="https://omtober.org/" />
+    <meta property="og:title" content="omtober — Omarchy as my daily driver" />
+    <meta
+      property="og:description"
+      content="chantastic tries Omarchy as a daily driver OS and keeps a log."
+    />
+    <meta name="twitter:card" content="summary" />
+    <meta name="twitter:title" content="omtober — Omarchy as my daily driver" />
+    <meta
+      name="twitter:description"
+      content="chantastic tries Omarchy as a daily driver OS and keeps a log."
+    />
+
+    <link rel="stylesheet" href="/styles.css" />
+  </head>
+  <body>
+    <a class="skip" href="#main">Skip to content</a>
+
+    <header class="bar">
+      <nav aria-label="Primary">
+        <ul class="workspaces">
+          <li><a href="/" aria-current="page">1 home</a></li>
+          <li><a href="/log/">2 log</a></li>
+        </ul>
+      </nav>
+      <a class="brand" href="/">om<span>tober</span></a>
+    </header>
+
+    <main id="main" class="tiles tiles--split">
+      <section class="pane pane--active pane--wide" data-title="~/omtober">
+        <p class="prompt">whoami</p>
+        <h1 class="cursor">Omarchy as my daily driver.</h1>
+        <p class="lede">
+          I'm Michael Chan (<a href="https://chantastic.com">chantastic</a>).
+          This October I'm using
+          <a href="https://omarchy.org">Omarchy</a> as the operating system I
+          actually work on every day, and writing down what happens.
+        </p>
+      </section>
+
+      <section class="pane" data-title="the experiment">
+        <h2>What's this?</h2>
+        <p>
+          Omarchy is DHH's opinionated Linux setup: Arch Linux with the Hyprland
+          tiling window manager, preconfigured from top to bottom. It's built
+          around the keyboard rather than the mouse.
+        </p>
+        <p>
+          <strong>omtober</strong> = Omarchy + October. Daily driver means
+          real work, not a weekend VM. The log is where I write down what
+          works, what breaks, and what changes about how I work.
+        </p>
+        <!-- TODO(chantastic): add your own rules, hardware, and why-now here. -->
+      </section>
+
+      <section class="pane" data-title="fastfetch">
+        <h2>Spec sheet</h2>
+        <dl class="spec">
+          <dt>os</dt>
+          <dd>Omarchy (Arch Linux)</dd>
+          <dt>wm</dt>
+          <dd>Hyprland</dd>
+          <dt>user</dt>
+          <dd>chantastic</dd>
+          <dt>duration</dt>
+          <dd>October 2026</dd>
+          <dt>status</dt>
+          <dd class="accent">in progress</dd>
+        </dl>
+      </section>
+
+      <section class="pane pane--wide" data-title="log">
+        <h2>Log</h2>
+        <ul class="log">
+          <li>
+            <span class="day">day 01</span>
+            <a href="/log/day-01.html">First entry</a>
+            <span class="tag tag--draft">draft</span>
+          </li>
+        </ul>
+        <p class="muted"><a href="/log/">All entries →</a></p>
+      </section>
+    </main>
+
+    <footer class="foot">
+      <span>omtober.org · a chantastic experiment</span>
+      <span>
+        Not affiliated with
+        <a href="https://omarchy.org">Omarchy</a>. Just using it.
+      </span>
+    </footer>
+  </body>
+</html>
